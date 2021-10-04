@@ -1,0 +1,56 @@
+.App-header {
+    display:flex;
+    justify-content: space-around;
+    }
+    .logo-img{
+      display: inline-block;
+      width:260px;
+      height:60px;
+      margin-top:16px;
+      cursor:pointer;
+    }
+    nav ul{
+      list-style-type: none;
+    }
+    nav ul li {
+      display: inline-block;
+      padding:5px 20px;
+    
+    }
+    nav ul li a{
+      text-decoration: none;
+      font-size:16px;
+      color:black;
+      margin:6px;
+    }
+    .login-btn {
+      background-color: orangered;
+      border:none;
+      color:black;
+      border-radius: 5px;
+      padding:4px 12px;
+      cursor:pointer;
+    
+    }
+    .active{
+      color:black;
+      font-weight:600;
+    }
+    @media (max-width:600px){
+      .App-header{
+        display:block;
+        height:100%;
+      }
+      nav ul li {
+        display: block;
+        padding:5px 20px;
+        margin:10px;
+      
+      }
+      nav ul li a{
+        text-decoration: none;
+        font-size:26px;
+        color:black;
+        margin:16px;
+      }
+    }
